@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'NASA';
+  src: URL('nasa.ttf') format('truetype');
+}
+
+h1 {
+  text-align: center;
+  font-family: NASA;
+  font-size: 45pt;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  font-weight: normal;
+  }
+
+body {
+  font-size: 20pt;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  background-color: #24357B;
+  }
+
+table {
+  width: 100%;
+  }
+
+td {
+  padding: 9.5px;
+  }
+  
+input[type=text] {
+  width: 90%;
+  font-size: 24pt;
+  font-family: sans-serif;
+  border: none;
+  padding: 28px 28px;
+  }
+
+input:disabled {
+  background-color: #DDDDDD;
+  color: #000000;
+  }
+
+input:read-only {
+  background-color: #DDDDDD;
+  color: #000000;
+  } 
+
+.block_button {
+  display: inline;
+  border: none;
+  padding: 58px;
+  font-size: 31pt;
+  font-family: NASA;
+  color: #FFFFFF;
+  cursor: pointer;
+  text-align: center;
+  }
+
+.blue {
+  background-color: #38A2F3;
+  }
+  
+.red {
+  background-color: #FF0000;
+  }
+  
+.green {
+  background-color: #4CAF50;
+  }
+
+.half {
+  width: 48.8%;
+  }
+  
+.full {
+  width: 98.5%;
+  }
+
+.row_headings {
+  width: 25%;
+  }
+
+.centered {
+  text-align: center
+  }
+
